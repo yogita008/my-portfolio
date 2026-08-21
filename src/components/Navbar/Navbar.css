@@ -48,13 +48,38 @@ color: var(--accent);
 font-weight: bold;
 border-bottom: 2px solid var(--accent);
 }
+/* === THEME TOGGLE === */
+
+.theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 38px;
+    background: var(--accent);
+    color: #122019;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    font-size: 19px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background: #6B8E5A;
+    border-color: #6B8E5A;
+    color: #F5F1E3;
+}
+
+
 
 /* === MOBILE NAVIGATION === */
 .menu-toggle {
 display: none;
 background: none;
 border: none;
-color: #fff;
+color:#F5F1E3;
 font-size: 30px;
 cursor: pointer;
 }
@@ -69,7 +94,7 @@ position: absolute;
 top: 70px;
 left: 0;
 width: 100%;
-background: #1B4F72;
+background: #122019;
 flex-direction: column;
 text-align: center;
 padding: 20px 0;

@@ -1,44 +1,24 @@
-export const categories = ['all', 'web', 'fullstack', 'auth'];
+export const categories = ['all', 'web' ];
 
 export const projectsData = [
   {
+    
     id: 1,
-    title: 'BookMyShow Clone',
-    description: 'Full-stack movie ticket booking platform',
+    title: 'To-Do List',
+    description: 'A simple and responsive task management application',
     longDesc:
-      'A MERN stack clone of BookMyShow with movie listings, seat selection, booking history, and user authentication.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'fullstack',
+        'A responsive To-Do List application designed to help users organize daily tasks, set priorities, filter tasks, track completion, and manage their productivity with an easy-to-use interface.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    category: 'web',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
+
   },
+
+ 
   {
     id: 2,
-    title: 'React + Spring Boot App',
-    description: 'Full-stack application with REST APIs',
-    longDesc:
-      'A responsive web app built with React frontend and Spring Boot backend, featuring RESTful APIs, CRUD operations, and secure authentication.',
-    tech: ['React', 'Spring Boot', 'Java', 'REST API'],
-    category: 'fullstack',
-    featured: true,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 3,
-    title: 'MERN Todo App',
-    description: 'Task manager with JWT auth',
-    longDesc:
-      'A full-featured todo application with user registration, login, and task management using MongoDB, Express, React, and Node.js.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'auth',
-    featured: false,
-    liveUrl: '#',
-    githubUrl: '#'
-  },
-  {
-    id: 4,
     title: 'Portfolio Website',
     description: 'Personal developer portfolio',
     longDesc:
@@ -48,17 +28,6 @@ export const projectsData = [
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
-  },
-  {
-    id: 5,
-    title: 'Habit Tracker',
-    description: 'Daily habit tracking app',
-    longDesc:
-      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'web',
-    featured: false,
-    liveUrl: '#',
-    githubUrl: '#'
   }
+
 ];
