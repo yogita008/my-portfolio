@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 :root {
-    --primary: #2F4F3A;
-    --accent: #A3B18A;;
-    --text: #263B2C;
-    --light: #E8E4D5;
+    --primary: #1E3A5F;
+    --accent: #6C9BD2;
+    --text: #303B49;
+    --light: #F3F7FC;
     --white: #FFFFFF;
+
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -35,177 +36,177 @@ section h2::after{
 }
 /* 3. Dark Mode Global Overrides */
 body[data-theme="dark"] .about-copy p {
-    color: #D6DED2;
+    color: #F3F7FC;
 }
 body[data-theme="dark"] {
-    background: #0F1F16;
-    color:  #F5F1E3;
+    background:#101B2A;
+    color: #F3F7FC;
 }
 /* Header */
 body[data-theme="dark"] .site-header,
 body[data-theme="dark"] .navbar {
-    background:  #122019;
+    background: #14243A;
 }
 
 
 /* Navigation Links */
 body[data-theme="dark"] .nav-links a {
-    color: #F5F1E3;
+    color: #F3F7FC;
 }
 
 
 body[data-theme="dark"] .nav-links a:hover,
 body[data-theme="dark"] .nav-links a.active {
-    color: #A3B18A;
+    color:#6C9BD2;
 }
 
 
 /* Logo */
 body[data-theme="dark"] .logo {
-    color:  #F5F1E3;
+    color: #F3F7FC;
 }
 
 
 /* Hero */
 body[data-theme="dark"] .hero-section {
-    background: linear-gradient(135deg,#0F1F16, #1F3528);
+    background: linear-gradient(135deg,#101B2A, #203B5C);
 }
 
 
 /* Highlight */
 body[data-theme="dark"] .highlight {
-    color:  #A3B18A;
+    color: #6C9BD2;
 }
 
 
 /* About */
 body[data-theme="dark"] .about-section {
-    background: #122019;
-    color:  #F5F1E3;
+    background: #14243A;
+    color:  #F3F7FC;
 }
 
 
 /* Skills */
 body[data-theme="dark"] .skills-section {
-    background:  #16261C;
+    background:  #17273B;
 }
 
 
 body[data-theme="dark"] .skill-item {
-    background: #20352A;
-    color:  #F5F1E3;
-    border-color: #344C3A;
+    background:#203B5C;
+    color:   #F3F7FC;
+    border-color: #385474;
 }
 
 /* GitHub Stats Dark */
 body[data-theme="dark"] .github-stats {
-    background: #1F3528;
-    color: #F5F1E3;
-    border: 1px solid #344C3A;
+    background: #203B5C;
+    color:  #F3F7FC;
+    border: 1px solid #385474;
 }
 
 /* Skill Cards Dark */
 body[data-theme="dark"] .skill-card {
-    background: #1F3528;
-    border: 1px solid #344C3A;
-    color: #F5F1E3;
+    background:#203B5C ;
+    border: 1px solid #385474;
+    color: #F3F7FC;
 }
-body[data-theme="dark"] .skill-name { color: #F5F1E3; }
-body[data-theme="dark"] .skill-level { color: #A3B18A; }
+body[data-theme="dark"] .skill-name { color:  #F3F7FC; }
+body[data-theme="dark"] .skill-level { color: #8CB8E8; }
 
 /* Projects */
 body[data-theme="dark"] .projects-section {
-    background:#122019 ;
+    background:#14243A ;
 }
 
 
 body[data-theme="dark"] .project-card {
-    background: #1F3528;
-    color:  #F5F1E3;
+    background: #203B5C;
+    color:  #F3F7FC;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);;
 }
 
 
 body[data-theme="dark"] .project-card h3,
 body[data-theme="dark"] .project-card p {
-    color: #F5F1E3;
+    color: #F3F7FC;
 }
 
 
 /* Tags */
 body[data-theme="dark"] .tag {
-    background:  #A3B18A;
-    color:  #122019;
+    background:  #8CB8E8;
+    color:  #14243A;
 }
 
 
 /* Contact */
 body[data-theme="dark"] .contact-section {
-    background: #16261C;
+    background: #17273B;
 }
 
 
 /* Form */
 body[data-theme="dark"] input,
 body[data-theme="dark"] textarea {
-    background: #20352A;
-    color: #F5F1E3;
-    border: 1px solid #344C3A;
+    background:#203B5C;
+    color: #F3F7FC;
+    border: 1px solid #385474;
 }
 
 
 body[data-theme="dark"] input::placeholder,
 body[data-theme="dark"] textarea::placeholder {
-    color: #B8C2B5;
+    color:  #B8C9DD;
 }
 
 
 body[data-theme="dark"] label {
-    color:  #F5F1E3;
+    color:   #F3F7FC;
 }
 
 
 /* Buttons */
 body[data-theme="dark"] .btn-primary {
-    background: #A3B18A;
-    color: #122019;
+    background: #8CB8E8;
+    color: #14243A;
 }
 
 
 body[data-theme="dark"] .btn-secondary {
-    border-color: #A3B18A;
-    color: #F5F1E3;
+    border-color: #8CB8E8;
+    color: #F3F7FC;
 }
 
 
 body[data-theme="dark"] .btn-secondary:hover {
-    background:   #A3B18A;
-    color: #122019;
+    background:  #8CB8E8;
+    color: #14243A;
 }
 
 
 /* Footer */
 body[data-theme="dark"] .site-footer {
-    background: #09130D;
-    color: #B8C2B5;
+    background:  #0B1420;
+    color: #B8C9DD;
 }
 
 
 body[data-theme="dark"] .site-footer a {
-    color:#F5F1E3;
+    color:#F3F7FC;
 }
 
 
 body[data-theme="dark"] .site-footer a:hover {
-    color:#A3B18A;
+    color:#8CB8E8;
 }
 
 
 /* Theme Button */
 body[data-theme="dark"] .theme-toggle {
-    background: #20352A;
-    color: #F5F1E3;
-    border: 1px solid  #344C3A;
+    background: #203B5C;
+    color: #F3F7FC;
+    border: 1px solid  #385474;
 }
 html, body, #root {
     min-height: 100%;
@@ -216,7 +217,7 @@ body {
     font-family: var(--font-main);
     color: var(--text);
     line-height: 1.6;
-    background-color:  #D8E2D5;
+    background-color:  #F3F7FC;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
