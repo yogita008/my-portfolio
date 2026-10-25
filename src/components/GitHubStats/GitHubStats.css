@@ -2,16 +2,16 @@
     display: flex; 
     gap: 20px; 
     align-items: center; 
-    background: #1F3528; 
+    background:#1E3A5F; 
     padding: 20px; 
     border-radius: 12px; 
-    box-shadow: 0 4px 10px rgba(47, 79, 58, 0.25); }
+    box-shadow: 0 4px 10px rgba(30, 58, 95, 0.25); }
     .github-stats h3 {
-    color: #F5F1E3;
+    color: #FFFFFF;
     font-size: 1.3rem;
 }
 
 .github-stats p {
-    color: #D8E2D5;
+    color:#D8E5F3;
     margin: 6px 0;
 }
